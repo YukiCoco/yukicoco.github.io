@@ -1,0 +1,16 @@
+[{
+        "name": "YukiDrive",
+        "url": "https://github.com/YukiCoco/YukiDrive",
+        "desc": "Onedrive & SharePoint 文件浏览网页程序"
+    },
+    {
+        "name": "CheapSteam",
+        "url": "https://github.com/YukiCoco/CheapSteam",
+        "desc": "Cheap Steam 为您提供 STEAM 与 BUFF 的饰品价格对比数据"
+    },
+    {
+        "name": "OLAINDEX-Magic",
+        "url": "https://github.com/YukiCoco/CheapSteam",
+        "desc": "OLAINDEX 魔改版本，为 OLAINDEX 添加多网盘挂载及一些小修复"
+    }
+]
