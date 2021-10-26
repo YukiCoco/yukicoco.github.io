@@ -5,25 +5,6 @@
     
     <entry>
       <title>父元素设置了 min-height ，子元素 height 100% 不生效</title>
-      <link href="/2021/10/26/post/"/>
-      <url>/2021/10/26/post/</url>
-      
-        <content type="html"><![CDATA[<h2 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h2><p>因为百分比是根据父元素的 <code>height</code> 来计算的，而不是 <code>min-height</code>。所以当父元素的 <code>height</code> 未被设置时，子元素是根据默认值 <code>auto</code> 来计算的，所以表现为根据内容自动设置高度。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在父元素使用 <code>flex</code> 或 <code>grid</code> 布局，此时子元素的 <code>align-self</code> 是 <code>stretch</code>，即 100%。  </p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">    <span class="attribute">min-height</span>: <span class="number">100vh</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.item</span>&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span></span><br><span class="line">        Hello, World!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-self">align-self - CSS（层叠样式表）</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 前端 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>父元素设置了 min-height ，子元素 height 100% 不生效</title>
       <link href="/2021/10/26/frontend-min-height/"/>
       <url>/2021/10/26/frontend-min-height/</url>
       
@@ -42,22 +23,9 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/2021/10/12/about/index/"/>
-      <url>/2021/10/12/about/index/</url>
-      
-        <content type="html"><![CDATA[<p>现实中为在读本科生。<br>常用技术栈：.NET, Vue<br>时常因为不会写 Shell 脚本而用 Python 代替，这也是我用 Python 最多的场合。<br>目前前后端都有在做，不过还是会以学习专业课为主。<br>因为英语有了自学能力，所以大学外语选了日语，但目前仍是日语苦手。<br>单机游戏玩家，最喜欢的游戏有《上古卷轴5》、《塞尔达传说：旷野之息》。<br>最喜欢的 Linux 发行版是 Debian 系。<br>我的现役设备：联想 Y7000P 2019、富士通 H760 移动工作站、IPad 2018、一加6、Kindle PaperWhite 3、Nintendo Switch、Playstation 5<br>我的现役 OS：macOS Catalina, Windows 11, Windows 10, Android 10 Havoc-OS<br>想看到我的代码能让世界有一点点改变。  </p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
-      <link href="/2021/10/12/hello-world/"/>
-      <url>/2021/10/12/hello-world/</url>
+      <link href="/2021/10/13/hello-world/"/>
+      <url>/2021/10/13/hello-world/</url>
       
         <content type="html"><![CDATA[<h2 id="你好，世界！"><a href="#你好，世界！" class="headerlink" title="你好，世界！"></a>你好，世界！</h2><p>兜兜转转来到 2021。和朴树《NEW BOY》中写的差不多，我的新生活来得像梦一样。<br>在此为以前所有的文章按下 DELETE 键，这里意味着我的新生。<br>现在的我状态 MAX，做着想做的事情，好像未来有无限的可能。虽然将来的规划还是比较模糊，但至少走在我应该走的路上，回到了正常生活中。<br>遗忘是人类的自我保护机制，我将以往抛诸脑后，以「Hello, World」为始，重新开始新的人生。<br>用中二的话讲，就是《RE：从零开始的大学生活》</p>]]></content>
       
