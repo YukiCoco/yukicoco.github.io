@@ -9,7 +9,7 @@
     <meta name="description" content="错误分析因为百分比是根据父元素的 height 来计算的，而不是 min-height。所以当父元素的 height 未被设置时，子元素是根据默认值 auto 来计算的，所以表现为根据内容自动设置高度。 解决方法在父元素使用 flex 或 grid 布局，此时子元素的 align-self 是 stretch，即 100%。   12345678.container&amp;#123;    displa">
 <meta property="og:type" content="article">
 <meta property="og:title" content="父元素设置了 min-height ，子元素 height 100% 不生效">
-<meta property="og:url" content="https://yukicoco.github.io/2021/10/26/frontend-min-height/index.html">
+<meta property="og:url" content="https://blog.kurisu.moe/2021/10/26/frontend-min-height/index.html">
 <meta property="og:site_name" content="Kurisu&#39;s Blog">
 <meta property="og:description" content="错误分析因为百分比是根据父元素的 height 来计算的，而不是 min-height。所以当父元素的 height 未被设置时，子元素是根据默认值 auto 来计算的，所以表现为根据内容自动设置高度。 解决方法在父元素使用 flex 或 grid 布局，此时子元素的 align-self 是 stretch，即 100%。   12345678.container&amp;#123;    displa">
 <meta property="og:locale" content="en_US">
@@ -91,17 +91,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yukicoco.github.io/2021/10/26/frontend-min-height/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&text=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&is_video=false&description=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=父元素设置了 min-height ，子元素 height 100% 不生效&body=Check out this article: https://yukicoco.github.io/2021/10/26/frontend-min-height/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&name=父元素设置了 min-height ，子元素 height 100% 不生效&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yukicoco.github.io/2021/10/26/frontend-min-height/&t=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://blog.kurisu.moe/2021/10/26/frontend-min-height/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&text=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&is_video=false&description=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=父元素设置了 min-height ，子元素 height 100% 不生效&body=Check out this article: https://blog.kurisu.moe/2021/10/26/frontend-min-height/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&name=父元素设置了 min-height ，子元素 height 100% 不生效&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&t=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -188,17 +188,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yukicoco.github.io/2021/10/26/frontend-min-height/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&text=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&is_video=false&description=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=父元素设置了 min-height ，子元素 height 100% 不生效&body=Check out this article: https://yukicoco.github.io/2021/10/26/frontend-min-height/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yukicoco.github.io/2021/10/26/frontend-min-height/&name=父元素设置了 min-height ，子元素 height 100% 不生效&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yukicoco.github.io/2021/10/26/frontend-min-height/&t=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://blog.kurisu.moe/2021/10/26/frontend-min-height/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&text=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&is_video=false&description=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=父元素设置了 min-height ，子元素 height 100% 不生效&body=Check out this article: https://blog.kurisu.moe/2021/10/26/frontend-min-height/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&title=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&name=父元素设置了 min-height ，子元素 height 100% 不生效&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.kurisu.moe/2021/10/26/frontend-min-height/&t=父元素设置了 min-height ，子元素 height 100% 不生效"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
