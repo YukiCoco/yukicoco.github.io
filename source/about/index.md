@@ -9,5 +9,5 @@ date: 2021-10-12 00:48:13
 因为英语有了自学能力，所以大学外语选了日语，但目前仍是日语苦手。  
 单机游戏玩家，最喜欢的游戏有《上古卷轴5》、《塞尔达传说：旷野之息》。  
 现役设备：联想 Y7000P 2019、富士通 H760 移动工作站、IPad 2018、OnePlus 6、Kindle PaperWhite 3、Nintendo Switch、Playstation 5、Mi 11  
-习惯 OS：Debian 10, macOS Catalina, Windows 11, Windows 10, Android 10 Havoc-OS, MIUI 12.5  
+常用 OS：Debian 10, macOS Catalina, Windows 11, Windows 10, Android 10 Havoc-OS, MIUI 12.5  
 想看到我的代码能让世界有一点点改变。  
